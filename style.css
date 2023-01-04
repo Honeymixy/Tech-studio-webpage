@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.page-one{
+    background-image: url(./images/background\ img.jpeg);
+    height: 600px;
+    background-size:cover;
+    position: relative;
+}
+
+input{
+    width: 500px;
+    height: 8vh;
+}
+.image-one{
+    max-width:30%;
+    height: auto;
+    border-radius: 100%;
+    /* margin-bottom: 1rem; */
+}
+.image-text{
+    position: relative;
+}
+.card {
+    background-color: white;
+    position: absolute;
+    width: 410px;
+    left: -150px;
+    top: 150px;
+}
