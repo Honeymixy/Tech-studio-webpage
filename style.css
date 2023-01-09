@@ -4,14 +4,14 @@
 }
 .page-one{
     background-image: url(./images/background\ img.jpeg);
-    height: 600px;
+    width: 100%;
+    height: 200%;
     background-size:cover;
-    position: relative;
+    /* position: relative; */
 }
 
 input{
-    width: 500px;
-    height: 8vh;
+    height:60px;
 }
 .image-one{
     max-width:30%;
@@ -29,3 +29,34 @@ input{
     left: -150px;
     top: 150px;
 }
+/* .button-line{
+    color: aliceblue;
+    text-decoration-color: blue;
+}
+.button-line :hover{
+    color: rgb(19, 19, 22);
+} */
+
+.Social-icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+.Social-icon :hover{
+    color: red;
+}
+.icon-bar{
+    position: fixed;
+    bottom:20px;
+    transform: translateY(-50%);
+    right: 1.0rem;
+    background-color: rgb(37,211,102);
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius:50%;
+    
+}
+
+
