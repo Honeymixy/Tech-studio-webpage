@@ -1,42 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
 *{
     padding: 0;
     margin: 0;
 }
+body{
+     font-family: 'PT Sans', sans-serif;}
+
 .page-one{
     background-image: url(./images/background\ img.jpeg);
     width: 100%;
     height: 200%;
     background-size:cover;
-    /* position: relative; */
+}
+.testimonial p , .content-writeup {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 20px;
 }
 
 input{
     height:60px;
 }
 .image-one{
-    max-width:30%;
+    max-width:20%;
     height: auto;
     border-radius: 100%;
     /* margin-bottom: 1rem; */
 }
-.image-text{
-    position: relative;
-}
-.card {
+/* .image-text{
+    margin-left: 100px;
+    
+} */
+/* .card {
     background-color: white;
     position: absolute;
-    width: 410px;
-    left: -150px;
+    width: 500px;
     top: 150px;
-}
-/* .button-line{
-    color: aliceblue;
-    text-decoration-color: blue;
-}
-.button-line :hover{
-    color: rgb(19, 19, 22);
+    left: 100px;
 } */
 
+.car {
+    margin-left: -190px;
+    width:40vw;
+    border-radius: 20px;
+    
+    
+}
 .Social-icon{
     font-size: 20px;
     cursor: pointer;
@@ -48,7 +56,7 @@ input{
     position: fixed;
     bottom:20px;
     transform: translateY(-50%);
-    right: 1.0rem;
+    right: 1.9rem;
     background-color: rgb(37,211,102);
     width: 70px;
     height: 70px;
@@ -56,7 +64,4 @@ input{
     justify-content: center;
     align-items: center;
     border-radius:50%;
-    
 }
-
-
